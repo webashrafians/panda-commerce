@@ -1,6 +1,8 @@
 
 
-
+img{
+    max-width: 100%;
+}
 /* carousel --------------- */
 .container{
     margin-bottom: 100px;
@@ -30,4 +32,79 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+main{
+    background-color: #f5f5fc;
+    padding: 20px 0;
+}
+/* categories */
+.cat{
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* display: flex; // use bootstrap class
+    justify-content: space-between;
+    align-items: center; */
+    color: #fff;
+}
+.cat h1{
+    font-weight: 700;
+}
+.cat-1{
+    background-image: linear-gradient(75deg, #FF9C35, #FFD019);
+}
+.cat-2{
+    background-image: linear-gradient(75deg, #FF589B, #FF136F);
+}
+.cat-3{
+    background-image: linear-gradient(75deg, #4289FF, #3F07F8);
+}
+
+
+
+/* shoes */
+#shoes .card h5{
+    font-weight: 700;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.card h5{
+    font-weight: 700;
+}
+
+.card-footer{
+    background-color: transparent;
+    border: none;
+}
+.card .buy-now-btn {
+	background-image: linear-gradient(90deg, black, black);
+	color: #fff;
+}
+
+.card:hover{
+    background-color: rgb(186, 170, 216);
+}
+
+
+/* contact */
+#contact{
+    height: 300px;
+}
+
+#contact h6{
+    color: gray;
 }
