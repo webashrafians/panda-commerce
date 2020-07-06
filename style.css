@@ -1,0 +1,33 @@
+
+
+
+/* carousel --------------- */
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.carousel-item{
+    padding: 30px;
+}
+
+.price{
+    color:#ff136f;
+    font-weight: 700;
+}
+
+.buy-now-btn{
+    background-image: linear-gradient(to bottom , #ff136f 0%, #ff5898 100%);
+    padding: 8px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
